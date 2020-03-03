@@ -36,6 +36,7 @@ function objToSql(ob) {
   }
 
   // translate array of strings to a single comma-separated string
+  console.log("sql syntax: ",arr.toString());
   return arr.toString();
 }
 
